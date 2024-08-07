@@ -1,0 +1,141 @@
+.navbar {
+  width: 100%;
+  background-color: var(--color-backround);
+  padding: 30px 40px;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .switch {
+      display: inline-block;
+      position: relative;
+      width: 60px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      &__input {
+        width: 0;
+        height: 0;
+        opacity: 0;
+      }
+      &__slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 34px;
+        background-color: #8b8b8b;
+        z-index: 0;
+        &::before {
+          content: "";
+          position: absolute;
+          cursor: pointer;
+          left: 4px;
+          bottom: 4px;
+          height: 26px;
+          width: 26px;
+          border-radius: 50%;
+          background-color: white;
+          transition: 0.4s;
+        }
+      }
+      .moon {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 7px;
+      }
+    }
+    .switch__input:checked + .switch__slider {
+      background-color: var(--color-green);
+
+      &::before {
+        transform: translateX(26px);
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    .icon {
+      display: none;
+    }
+    .discount {
+      width: 151px;
+      height: 32px;
+      background-color: var(--color-green);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      color: var(--color-txt);
+    }
+    &-link {
+      display: flex;
+      gap: 32px;
+    }
+  }
+  &__cart {
+    display: flex;
+    gap: 24px;
+  }
+  @media (max-width: 480px) {
+    padding: 10px;
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__logo {
+      .logo {
+        width: 44px;
+        height: 44px;
+      }
+    }
+    &__list {
+      order: 1;
+      .icon {
+        display: block;
+      }
+      .discount {
+        display: none;
+      }
+      &-link {
+        position: absolute;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 16px;
+        right: 0;
+        width: 100%;
+        margin-top: 55px;
+        &-active {
+          display: none;
+        }
+      }
+    }
+    &__cart {
+      margin: 0 10px 3px 150px;
+      gap: 10px;
+      .cart {
+        width: 35px;
+        height: 35px;
+      }
+      .heard {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+}
