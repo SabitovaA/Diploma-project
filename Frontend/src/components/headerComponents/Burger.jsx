@@ -1,16 +1,19 @@
-import React, { useEffect, useState } from "react";
-import menu from "../../assets/headerImages/menu.svg";
+import React from "react";
+import "./Burger.scss";
+import Nav from "./Nav";
 
 function Burger({ isToggle, setIsToggle }) {
   return (
-    <>
-      <img
+    <div className="container__burger">
+      <div
         onClick={() => setIsToggle(!isToggle)}
-        className="icon"
-        src={menu}
-        alt=""
-      />
-    </>
+        className={isToggle ? "burger active" : "burger"}
+      >
+        <span className="span"></span>
+      </div>
+
+      <Nav isToggle={isToggle} />
+    </div>
   );
 }
 

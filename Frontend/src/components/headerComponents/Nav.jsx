@@ -1,27 +1,39 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Nav({ isToggle }) {
   return (
-    <>
-      <ul
-        className={`navbar__list-link ${
-          !isToggle ? "navbar__list-link-active" : ""
-        }`}
-      >
-        <li href="" className="link">
+    <ul
+      className={`navbar__list-link ${
+        !isToggle ? "navbar__list-link-active" : ""
+      }`}
+    >
+      <li href="" className="link">
+        <NavLink className="navlink" to={"main_page"}>
+          {" "}
           Main Page
-        </li>
-        <li href="" className="link">
+        </NavLink>
+      </li>
+      <li href="" className="link">
+        <NavLink className="navlink" to={"categories"}>
+          {" "}
           Categories
-        </li>
-        <li href="" className="link">
-          All products
-        </li>
-        <li href="" className="link">
+        </NavLink>
+      </li>
+      <li href="" className="link">
+        <NavLink className="navlink" to={"allProducts"}>
+          {" "}
+          All producst
+        </NavLink>
+      </li>
+      <li href="" className="link">
+        <NavLink className="navlink" to={"allSales"}>
+          {" "}
           All sales
-        </li>
-      </ul>
-    </>
+        </NavLink>
+      </li>
+      <div className="discount_menu">1 day discount!</div>
+    </ul>
   );
 }
 
