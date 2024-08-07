@@ -42,7 +42,7 @@
           height: 26px;
           width: 26px;
           border-radius: 50%;
-          background-color: white;
+          background-color: #8b8b8b;
           transition: 0.4s;
         }
       }
@@ -52,10 +52,16 @@
         height: 20px;
         right: 7px;
       }
+      .sun {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 7px;
+      }
     }
-    .switch__input:checked + .switch__slider {
-      background-color: var(--color-green);
-
+    .switch__input:checked,
+    .switch__slider {
+      background-color: #fff;
       &::before {
         transform: translateX(26px);
         -webkit-transform: translateX(26px);
