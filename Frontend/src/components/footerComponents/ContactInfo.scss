@@ -26,10 +26,20 @@
       }
       p {
         font-size: 20px;
+        color: #8b8b8b;
       }
       a {
         font-size: 40px;
-        color: var(--color-txt);
+        color: #424436;
+      }
+    }
+  }
+  @media (max-width: 480px) {
+    .info {
+      display: flex;
+      flex-direction: column;
+      a {
+        font-size: 28px;
       }
     }
   }
