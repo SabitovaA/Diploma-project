@@ -31,10 +31,10 @@ function Header() {
       </div>
 
       <div className="navbar__cart">
-        <NavLink to="favorite">
+        <NavLink>
           <img className="heard" src={heard} alt="" />
         </NavLink>
-        <NavLink to="cart">
+        <NavLink>
           <img className="cart" src={cart} alt="" />
         </NavLink>
       </div>

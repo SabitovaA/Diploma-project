@@ -1,12 +1,18 @@
 import React from "react";
 import "./Home.scss";
+import PromoBanner from "../../components/homeComponents/promoBanner/PromoBanner";
+import HomeCategories from "../../components/homeComponents/homeCategories/HomeCategories";
+import HomeSale from "../../components/homeComponents/homeSale/HomeSale";
+import Discount from "../../components/homeComponents/discount/Discount";
 
 function Home() {
   return (
-    <div className="home__container">
-      <h1>Amazing Discounts on Garden Products!</h1>
-      <button className="check__out">Check out</button>
-    </div>
+    <>
+      <PromoBanner />
+      <HomeCategories />
+      <Discount />
+      <HomeSale />
+    </>
   );
 }
 

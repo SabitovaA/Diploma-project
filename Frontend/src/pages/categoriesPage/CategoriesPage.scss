@@ -1,0 +1,17 @@
+.categories__page {
+  padding: 40px;
+  background-color: var(--color-backround);
+
+  .categories__container {
+    display: flex;
+    gap: 32px;
+    &_box {
+      .categorie__img {
+        width: 248px;
+        height: 320px;
+        background-size: cover;
+        border-radius: 12px;
+      }
+    }
+  }
+}

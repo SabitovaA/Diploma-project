@@ -1,0 +1,58 @@
+.discount__container {
+  padding: 40px;
+  background-color: var(--color-backround);
+  &_box {
+    background-color: #0b710b;
+    width: 100%;
+    padding: 32px 32px 0 32px;
+    border-radius: 10px;
+
+    h1 {
+      color: #fff;
+      font-size: 64px;
+      text-align: center;
+    }
+    .form__box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 30px;
+      // .form {
+      //   display: flex;
+      //   flex-direction: column;
+      //   gap: 16px;
+
+      .input {
+        color: #fff;
+        background-color: transparent;
+      }
+      .btn {
+        color: #282828;
+        font-weight: 600;
+        margin-bottom: 20px;
+        &:disabled {
+          opacity: 0.7;
+          cursor: auto;
+        }
+        // }
+      }
+      .container__send {
+        width: 440px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        border-radius: 12px;
+        padding: 0 29px;
+        box-shadow: 0 0 24px 6px #b1ffb1, 0 0 20px 4px #b1ffb1;
+        .text__send {
+          color: white;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 120%;
+          letter-spacing: 1.5px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

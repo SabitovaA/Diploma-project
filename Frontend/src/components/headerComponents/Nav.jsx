@@ -9,7 +9,7 @@ function Nav({ isToggle }) {
       }`}
     >
       <li href="" className="link">
-        <NavLink className="navlink" to={"main_page"}>
+        <NavLink className="navlink" to={"/"}>
           {" "}
           Main Page
         </NavLink>
@@ -23,7 +23,7 @@ function Nav({ isToggle }) {
       <li href="" className="link">
         <NavLink className="navlink" to={"allProducts"}>
           {" "}
-          All producst
+          All products
         </NavLink>
       </li>
       <li href="" className="link">

@@ -1,0 +1,16 @@
+.sorted__container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  .sorted {
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    &__option {
+      color: #8b8b8b;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}

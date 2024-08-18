@@ -1,24 +1,84 @@
-.home__sale__container {
+.products__container {
   padding: 40px;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
   background-color: var(--color-backround);
-
-  .sale__container {
+  .links {
     display: flex;
-    gap: 32px;
+    align-items: center;
+    .link {
+      border: 1px solid #dddddd;
+      color: #424436;
+      padding: 5px 10px;
+      border-radius: 7px;
+    }
+    .feature {
+      border-bottom: 1px solid #dddddd;
+      width: 16px;
+    }
+  }
+  h2 {
+    font-size: 64px;
+    font-weight: 700px;
+  }
+  .sort__container {
+    display: flex;
+    gap: 10px;
+    p {
+      font-size: 20px;
+      font-weight: 600;
+    }
 
-    &_box {
+    .price__box {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      .price {
+        padding: 8px 16px;
+        background-color: transparent;
+        border: 1px solid #dddddd;
+        border-radius: 6px;
+      }
+    }
+    .discount__box {
+      display: flex;
+      align-items: center;
+
+      gap: 6px;
+      .discount {
+        width: 36px;
+        height: 36px;
+        background-color: transparent;
+        border: 1px solid #dddddd;
+        border-radius: 6px;
+      }
+    }
+    .sorted {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      .sorted {
+        padding: 8px;
+        background-color: transparent;
+        border: 1px solid #dddddd;
+        border-radius: 6px;
+      }
+    }
+  }
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+    .product__box {
       position: relative;
-      border: 1px solid #8b8b8b;
       width: 316px;
       height: 422px;
-      border-radius: 10px;
+      border: 1px solid #dddddd;
       background-color: #fff;
-      .sales__img {
+      img {
         width: 316px;
         height: 284px;
-        display: flex;
-        justify-content: space-between;
-        border-radius: 10px 10px 0 0;
       }
       .sale {
         position: absolute;
@@ -53,8 +113,8 @@
         gap: 16px;
         .title {
           font-size: 20px;
-          color: var(--color-txt);
           font-weight: 500;
+          color: var(--color-txt);
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;

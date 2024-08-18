@@ -4,6 +4,7 @@
   gap: 40px;
   h2 {
     font-size: 64px;
+    color: var(--color-txt);
   }
   .info {
     display: grid;
@@ -30,6 +31,7 @@
       }
       a {
         font-size: 40px;
+        font-weight: 600;
         color: #424436;
       }
     }

@@ -1,0 +1,23 @@
+.blok__title_btn {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  h2 {
+    font-size: 64px;
+    color: var(--color-txt);
+    padding-right: 32px;
+  }
+  .line {
+    border-bottom: 1px solid #8b8b8b;
+    width: 100%;
+  }
+  .btn {
+    color: #8b8b8b;
+    text-align: center;
+    border: 1px solid #8b8b8b;
+    padding: 8px 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+}

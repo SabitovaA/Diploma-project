@@ -1,0 +1,16 @@
+
+<svg width="48.000000" height="48.000000" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip5372_9809">
+			<rect id="basket=card - empty" rx="-0.891427" width="46.217148" height="46.217148" transform="translate(0.891427 0.891427)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="basket=card - empty" rx="-0.891427" width="46.217148" height="46.217148" transform="translate(0.891427 0.891427)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip5372_9809)">
+		<path id="Vector 3" d="M7 13L40.5 13L44.5 47L3 47L7 13Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M24 0C18.49 0 14.05 4.37 14.05 9.79L14.05 11.75L6.19 11.75L6.1 12.61L2.12 46.89L2 48L46 48L45.87 46.89L41.89 12.61L41.8 11.75L33.94 11.75L33.94 9.79C33.94 4.37 29.5 0 24 0ZM24 1.95C28.43 1.95 31.95 5.42 31.95 9.79L31.95 11.75L16.04 11.75L16.04 9.79C16.04 5.42 19.56 1.95 24 1.95ZM7.99 13.71L14.05 13.71L14.05 15.94C13.46 16.28 13.06 16.9 13.06 17.63C13.06 18.71 13.95 19.59 15.05 19.59C16.14 19.59 17.03 18.71 17.03 17.63C17.03 16.9 16.63 16.28 16.04 15.94L16.04 13.71L31.95 13.71L31.95 15.94C31.36 16.28 30.96 16.9 30.96 17.63C30.96 18.71 31.85 19.59 32.94 19.59C34.04 19.59 34.93 18.71 34.93 17.63C34.93 16.9 34.53 16.28 33.94 15.94L33.94 13.71L40 13.71L43.76 46.04L4.23 46.04L7.99 13.71Z" fill="#424436" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

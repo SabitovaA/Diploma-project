@@ -10,7 +10,7 @@ function ContactInfo() {
       <div className="info">
         <div className="info__box">
           <p>Phone</p>
-          <a href="">+49 999 999 99 99</a>
+          <a href="tel">+49 999 999 99 99</a>
         </div>
         <div className="info__box">
           <p>Sotials</p>
@@ -25,7 +25,9 @@ function ContactInfo() {
         </div>
         <div className="info__box">
           <p>Address</p>
-          <a href="">Linkstraße 2,8 OG, 10 785,Berlin,Deutschland</a>
+          <a href="https://www.google.com/maps/search/AIT+TR+GmbHLinkstra%C3%9Fe+2,+8+OG,+10+785/@52.5079361,13.3724698,17z/data=!3m1!4b1?hl=ru&entry=ttu">
+            Linkstraße 2,8 OG, 10 785,Berlin,Deutschland
+          </a>
         </div>
         <div className="info__box">
           <p>Working Hours</p>
